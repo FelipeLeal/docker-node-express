@@ -14,6 +14,8 @@ restart:
 	docker-compose restart
 shell:
 	docker-compose exec --user root node sh
+express:
+	docker-compose exec --user root nod express $(app)
 image-prune:
 	docker image prune -a
 volume-prune:
