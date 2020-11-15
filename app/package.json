@@ -1,15 +1,16 @@
 {
-  "author": "Felipe Leal <f3lipel3alt@gmail.com>",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-generator": "^4.16.1"
-  },
-  "description": "Node project",
-  "license": "MIT",
-  "main": "server.js",
-  "name": "node-api-rest",
+  "name": "sample",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
-  "version": "1.0.0"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  }
 }
