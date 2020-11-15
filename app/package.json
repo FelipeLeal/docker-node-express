@@ -1,0 +1,15 @@
+{
+  "author": "Felipe Leal <f3lipel3alt@gmail.com>",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1"
+  },
+  "description": "Node project",
+  "license": "MIT",
+  "main": "server.js",
+  "name": "node-api-rest",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0"
+}
